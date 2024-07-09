@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-image"></div>
+    <div class="container">
+        <div id="home">
+            <h1>HOME</h1>
+            <div class="zero">
+                <p id="home-score">0</p>
+            </div>
+            <div class="other-scores">
+                <div class="indiviudal-score">
+                    <p onclick="addOneHome()">+1</p>
+                </div>
+                <div class="indiviudal-score">
+                    <p  onclick="addTwoHome()">+2</p>
+                </div>
+                <div class="indiviudal-score">
+                    <p  onclick="addThreeHome()">+3</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div>
+            <h1>GUEST</h1>
+            <div class="zero">
+                <p id="guest-score">0</p>
+            </div>
+            <div class="other-scores">
+                <div class="indiviudal-score"> 
+                    <p onclick="addOneGuest()">+1</p>
+                </div>
+                <div class="indiviudal-score">
+                    <p onclick="addTwoGuest()">+2</p>
+                </div>
+                <div class="indiviudal-score">
+                    <p onclick="addThreeGuest()">+3</p>
+                </div>
+            </div>
+           
+        </div>
+
+        
+
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
